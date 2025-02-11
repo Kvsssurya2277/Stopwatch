@@ -10,8 +10,8 @@ This is a **fully functional stopwatch** that allows users to track time with pr
 - **User-Friendly Interface**: Clean and minimal design for an intuitive experience.  
 
 ## 📸 Screenshots  
-![Stopwatch Light Mode](https://i.postimg.cc/yNK24qKB/Screenshot-2025-02-11-200757.png)  
-![Stopwatch Dark Mode](https://i.postimg.cc/qM99whZN/Screenshot-2025-02-11-200748.png)  
+![Stopwatch Light Mode](https://i.postimg.cc/qM99whZN/Screenshot-2025-02-11-200748.png)  
+![Stopwatch Dark Mode](https://i.postimg.cc/yNK24qKB/Screenshot-2025-02-11-200757.png)  
 
 ## 🛠️ Technologies Used  
 - **HTML, CSS, JavaScript** for front-end development.  
