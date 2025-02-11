@@ -1,37 +1,37 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    transition: background 0.3s, color 0.3s;
 }
 
 body {
     background-color: aqua;
     height: 100vh;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
 .container {
-    background:#fff;
+    background: #fff;
     padding: 25px;
     width: 500px;
     border-radius: 15px;
     text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 #stopwatchduration {
     font-size: 55px;
     color: black;
     padding: 20px;
-    
-
 }
 
 .lapsButtons {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
 }
 
 .lapsButtons button {
@@ -58,6 +58,46 @@ body {
     padding: 10px;
 }
 
-#stop,#reset {
+#stop, #reset {
     background: red;
-} 
+}
+
+#toggleMode {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .container {
+    background: #2a2a2a;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode #stopwatchduration {
+    color: white;
+}
+
+.dark-mode .lapsButtons button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.dark-mode #stop, .dark-mode #reset {
+    background: crimson;
+}
+
+.dark-mode #toggleMode {
+    background-color: white;
+    color: black;
+}
